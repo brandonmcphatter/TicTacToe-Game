@@ -1,0 +1,30 @@
+#grid {
+    margin: auto;
+    width: 75%;
+}
+.box {
+    width: 8vh;
+    height: 8vh;
+}
+#box2, #box8 {
+    border-right: 2px solid darkslategray;
+    border-left: 2px solid darkslategray;
+}
+#box5 {
+    border: 2px solid darkslategray;
+}
+#box4, #box6 {
+    border-top: 2px solid darkslategray;
+    border-bottom: 2px solid darkslategray;
+}
+#reset {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 2px gray;
+}
+.box:hover {
+    background-color: orange;
+    opacity: 25%;
+}
