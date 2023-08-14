@@ -8,29 +8,22 @@ let box6 = document.getElementById("box6");
 let box7 = document.getElementById("box7");
 let box8 = document.getElementById("box8");
 let box9 = document.getElementById("box9");
-let grid = document.getElementById("grid");
 let reset = document.getElementById("reset");
 let score = 0;
 
 // Reset the grid
     reset.onclick = function (){
-        grid.innerHTML = "    <div class=\"row d-flex justify-content-center\">\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box1\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box2\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box3\"></div>\n" +
-            "    </div>\n" +
-            "\n" +
-            "    <div class=\"row d-flex justify-content-center\">\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box4\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box5\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box6\"></div>\n" +
-            "    </div>\n" +
-            "\n" +
-            "    <div class=\"row d-flex justify-content-center\">\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box7\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box8\"></div>\n" +
-            "        <div class=\"box col-4 text-center pt-4 fs-1\" id=\"box9\"></div>\n" +
-            "    </div>";
+
+        box1.innerText = "";
+        box2.innerText = "";
+        box3.innerText = "";
+        box4.innerText = "";
+        box5.innerText = "";
+        box6.innerText = "";
+        box7.innerText = "";
+        box8.innerText = "";
+        box9.innerText = "";
+
     }
 
 
