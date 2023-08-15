@@ -11,22 +11,23 @@
 <!--Header-->
 <h1 class="text-center mt-3">Let's Play <span class="fst-italic">Tic Tac Toe</span>!</h1>
 <!--X VS O-->
-<div class="d-flex flex-column">
-    <div class="container d-flex justify-content-between mt-4">
+<div class="d-flex flex-column container-fluid w-50">
+    <div class="container d-flex justify-content-around mt-4">
         <div class="h3" id="P1">Player 1</div>
-        <div class="h4">VS</div>
+
         <div class="h3" id="P2">Player 2</div>
     </div>
-    <div class="container d-flex justify-content-between mt-1">
+    <div class="container d-flex justify-content-around mt-1 px-5">
         <div class="h3" id="P1">X</div>
         <div class="h4">VS</div>
         <div class="h3" id="P2">O</div>
     </div>
-    <h2 class="text-center mt-3" id="turn">X's Turn</h2>
 </div>
 
 <!--Grid-->
-<div class="container-fluid d-flex flex-column justify-content-center wrap mt-5" id="grid">
+<div class="card container-fluid d-flex flex-column justify-content-center wrap mt-4 w-50" id="grid">
+    <h2 class="text-center my-5" id="turn">X's Turn</h2>
+
     <div class="row d-flex justify-content-center">
         <div class="box col-4 text-center pt-4 fs-1" id="box1"></div>
         <div class="box col-4 text-center pt-4 fs-1" id="box2"></div>
@@ -44,11 +45,9 @@
         <div class="box col-4 text-center pt-4 fs-1" id="box8"></div>
         <div class="box col-4 text-center pt-4 fs-1" id="box9"></div>
     </div>
-</div>
-
-<!--Reset Button-->
-<div class="container d-flex justify-content-center mt-5" id="resetButton">
-    <button type="button" id="reset">Reset</button>
+    <div class="container d-flex justify-content-center my-5" id="resetButton">
+        <button type="button" id="reset">Reset</button>
+    </div>
 </div>
 
 <!--Game Logic-->

@@ -1,6 +1,9 @@
 #grid {
     margin: auto;
     width: 75%;
+    border-radius: 10px;
+    background: rgb(84,159,147);
+    background: linear-gradient(10deg, rgba(84,159,147,1) 35%, rgba(37,142,166,1) 100%);
 }
 .box {
     width: 8vh;
@@ -21,10 +24,15 @@
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    background-color: lightblue;
-    box-shadow: 2px 2px 2px gray;
+    background-color: #E2B1B1;
+
 }
 .box:hover {
     background-color: orange;
     opacity: 25%;
+}
+body {
+    background: linear-gradient(0deg, rgba(159,175,144,1) 40%, rgba(226,194,255,1) 100%);
+    background-repeat: space;
+    height: 100vh;
 }
