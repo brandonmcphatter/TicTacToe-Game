@@ -24,6 +24,56 @@ A simple tic-tac-toe game implemented in JavaScript.
 ```javascript
 // JavaScript code snippet demonstrating the game logic
 
+// Grid functionality
+    box1.onclick = function () {
+    markX(box1);
+    changeTurns();
+    checkWinner();
+    }
+    box2.onclick = function () {
+    markX(box2);
+    changeTurns();
+    checkWinner();
+    
+    }
+    box3.onclick = function () {
+    markX(box3);
+    changeTurns();
+    checkWinner();
+    
+    }
+    box4.onclick = function () {
+    markX(box4);
+    changeTurns();
+    checkWinner();
+    
+    }
+    box5.onclick = function () {
+    markX(box5);
+    changeTurns();
+    checkWinner();
+    }
+    box6.onclick = function () {
+    markX(box6);
+    changeTurns();
+    checkWinner();
+    }
+    box7.onclick = function () {
+    markX(box7);
+    changeTurns();
+    checkWinner();
+    }
+    box8.onclick = function () {
+    markX(box8);
+    changeTurns();
+    checkWinner();
+    }
+    box9.onclick = function () {
+    markX(box9);
+    changeTurns();
+    checkWinner();
+    }
+
 // Function to check for a win
 function checkWinner() {
     if (box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box3.innerHTML === box1.innerHTML) {
