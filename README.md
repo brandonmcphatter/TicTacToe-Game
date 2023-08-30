@@ -5,7 +5,7 @@ Front End JavaScript Project
 A simple tic-tac-toe game implemented in JavaScript.
 
 ## How to Play
-1. Open the HTML file in a web browser.
+1. Open the HTML file in a web browser. (https://brandonmcphatter.github.io/TicTacToe-Game/)
 2. Two players take turns to click on the grid cells to make their moves.
 3. The first player to get 3 in a row (horizontally, vertically, or diagonally) wins.
 4. The game can be reset by clicking a "Reset" button.
